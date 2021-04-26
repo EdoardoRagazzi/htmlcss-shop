@@ -60,11 +60,11 @@ img{
     position: absolute;
     color: white;
     background-color: red;
-    font-size: 2vh;
+    font-size: 3px;
     line-height: 5px;
     text-align: center;
     height: 5px;
-    width: 10%;
+    width: 10px;
     bottom: 20px;
     left: 0px;
     font-weight: 800;
@@ -73,7 +73,7 @@ img{
     position: absolute;
     color: white;
     background-color:green;
-    font-size: 2vh;
+    font-size: 3px;
     line-height: 5px;
     text-align: center;
     height: 5px;
@@ -86,6 +86,13 @@ img{
     font-size: 2px;
     font-weight: 400;
     position: absolute;
-    margin-bottom: 5px;
 
+}
+.boxtext.green{
+    background-color: seagreen;
+}
+span{
+    color: red;
+    position: absolute;
+    padding-top: 4px;
 }
