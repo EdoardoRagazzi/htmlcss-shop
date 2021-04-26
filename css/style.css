@@ -1,3 +1,14 @@
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 2; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 2; }
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +29,7 @@ body{
     width: calc(100% / 3 - 20px);
     float:left;
     margin: 5px 0px 20px 5px ;
+    transition: display 0.5;
     
 }
 img{
@@ -39,11 +51,19 @@ img{
 
 .box:hover .firstpicture {
     display: none;
+
 }
 
 .box:hover .secondpicture {
     display: block;
     cursor: pointer;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.box:hover .heart{
+    color: red;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
 }
 .boximg .heart{
     position: absolute;
