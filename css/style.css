@@ -16,3 +16,15 @@
 .box img{
     width:100%;
 }
+.secondpicture {
+    display: none;
+}
+
+.box:hover .firstpicture {
+    display: none;
+}
+
+.box:hover .secondpicture {
+    display: block;
+    cursor: pointer;
+}
