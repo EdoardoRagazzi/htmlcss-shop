@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 70%;
+    margin: auto;
+}
 
 /* clearfix box attribute */
 .clearfix::after{
@@ -13,12 +17,19 @@
 .box{
     width: calc(100% / 3 - 20px);
     float:left;
-    margin: 5px;
-    position: relative;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    
 }
-.box img{
+img{
     width:100%;
     padding-bottom: 10px;
+}
+.boxtext{
+    position: relative;
+}
+.boximg{
+    position: relative;
 }
 
 /* picture section  */
@@ -35,7 +46,7 @@
     display: block;
     cursor: pointer;
 }
-.box .heart{
+.boximg .heart{
     position: absolute;
     top: 5px;
     right: 0px;
@@ -45,7 +56,7 @@
     font-size: 10px;
     font-weight: 0px;
 }
-.box .sconto{
+.boximg .sconto{
     position: absolute;
     color: white;
     background-color: red;
@@ -54,11 +65,11 @@
     text-align: center;
     height: 5px;
     width: 10%;
-    top: 100px;
+    bottom: 20px;
     left: 0px;
     font-weight: 800;
 }
-.box .sostenibilita{
+.boximg .sostenibilita{
     position: absolute;
     color: white;
     background-color:green;
@@ -67,17 +78,14 @@
     text-align: center;
     height: 5px;
     width: 20px;
-    top: 100px;
+    bottom: 20px;
     left: 11px;
     font-weight: 800;
 }
-h2{
-    font-size: 3px;
+.boxtext{
+    font-size: 2px;
+    font-weight: 400;
     position: absolute;
-    padding-bottom: ;
-}
-span{
-    color: red;
-    position: absolute;
-}
+    margin-bottom: 5px;
 
+}
