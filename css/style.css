@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* clearfix box attribute */
 .clearfix::after{
     content: '';
     display: table;
@@ -16,6 +18,8 @@
 .box img{
     width:100%;
 }
+
+/* picture section  */
 .secondpicture {
     display: none;
 }
